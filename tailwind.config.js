@@ -2,10 +2,17 @@
 module.exports = {
   darkMode: ["class"],
   content: [
+<<<<<<< HEAD
     "./pages/**/*.{js,jsx}",
     "./components/**/*.{js,jsx}",
     "./app/**/*.{js,jsx}",
     "./src/**/*.{js,jsx}",
+=======
+    './pages/**/*.{js,jsx}',
+    './components/**/*.{js,jsx}',
+    './app/**/*.{js,jsx}',
+    './src/**/*.{js,jsx}',
+>>>>>>> aee7a6911333e526408943fa479c7930f2515d08
   ],
   prefix: "",
   theme: {
@@ -24,7 +31,11 @@ module.exports = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
+<<<<<<< HEAD
           DEFAULT: "#249de5",
+=======
+          DEFAULT: "hsl(var(--primary))",
+>>>>>>> aee7a6911333e526408943fa479c7930f2515d08
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
@@ -73,6 +84,7 @@ module.exports = {
       },
     },
   },
+<<<<<<< HEAD
   daisyui: {
     themes: [
       "light",
@@ -111,3 +123,7 @@ module.exports = {
   },
   plugins: [require("tailwindcss-animate"), require("daisyui")],
 };
+=======
+  plugins: [require("tailwindcss-animate")],
+}
+>>>>>>> aee7a6911333e526408943fa479c7930f2515d08
